@@ -1,14 +1,10 @@
-package br.com.surb.project_dslist.infrastruecture.controllers;
+package br.com.surb.project_dslist.infrastruecture.controllers.game;
 
 
-import br.com.surb.project_dslist.application.services.game.GameFindAllService;
 import br.com.surb.project_dslist.application.services.game.GameFindIdService;
-import br.com.surb.project_dslist.infrastruecture.presenters.GamePartialPresent;
 import br.com.surb.project_dslist.infrastruecture.presenters.GamePresent;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @RequestMapping(value = "games")

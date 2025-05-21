@@ -1,4 +1,4 @@
-package br.com.surb.project_dslist.infrastruecture.controllers;
+package br.com.surb.project_dslist.infrastruecture.controllers.game;
 
 
 import br.com.surb.project_dslist.application.services.game.GameFindAllService;
