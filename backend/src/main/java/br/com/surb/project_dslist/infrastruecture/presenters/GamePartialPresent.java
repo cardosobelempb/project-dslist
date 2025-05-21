@@ -1,6 +1,7 @@
 package br.com.surb.project_dslist.infrastruecture.presenters;
 
 import br.com.surb.project_dslist.application.entities.Game;
+import br.com.surb.project_dslist.infrastruecture.projections.GamePartialProjection;
 
 import java.util.Objects;
 
@@ -21,6 +22,16 @@ public class GamePartialPresent {
         imgUrl = entity.getImgUrl();
         shortDescription = entity.getShortDescription();
     }
+
+    public GamePartialPresent(GamePartialProjection projection) {
+        id = projection.getId();
+        title = projection.getTitle();
+        year = projection.getYear();
+        imgUrl = projection.getImgUrl();
+        shortDescription = projection.getShortDescription();
+      
+    }
+
 
     public Long getId() {
         return id;
