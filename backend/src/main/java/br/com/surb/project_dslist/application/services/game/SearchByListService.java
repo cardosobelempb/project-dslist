@@ -1,4 +1,4 @@
-package br.com.surb.project_dslist.application.services.game_list;
+package br.com.surb.project_dslist.application.services.game;
 
 
 import br.com.surb.project_dslist.infrastruecture.presenters.GamePartialPresent;

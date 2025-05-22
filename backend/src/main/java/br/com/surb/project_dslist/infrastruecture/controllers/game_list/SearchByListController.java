@@ -1,6 +1,6 @@
 package br.com.surb.project_dslist.infrastruecture.controllers.game_list;
 
-import br.com.surb.project_dslist.application.services.game_list.SearchByListService;
+import br.com.surb.project_dslist.application.services.game.SearchByListService;
 import br.com.surb.project_dslist.infrastruecture.presenters.GamePartialPresent;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
